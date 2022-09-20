@@ -37,6 +37,20 @@
         "com.unity.testtools.codecoverage": "1.0.1"
       }
     },
+    "com.unity.git.api": {
+      "version": "file:com.unity.git.api",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.unity.git.ui": {
+      "version": "file:com.unity.git.ui",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.git.api": "2.1.35-preview"
+      }
+    },
     "com.unity.ide.rider": {
       "version": "3.0.14",
       "depth": 0,
