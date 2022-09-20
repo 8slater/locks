@@ -3,7 +3,9 @@
     "references": [
         "Unity.Editor.Tasks",
         "com.unity.git",
-        "com.unity.git.shim"
+        "com.unity.git.shim",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
